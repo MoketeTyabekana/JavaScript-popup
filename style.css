@@ -15,23 +15,28 @@
     align-items: center;
 }
 
-.submit{
+.submit, .ok-btn{
     padding: 10px;
     cursor: pointer;
-    width: 10%;
+    width: 200px;
     background-color: #aed7ff;
     border: none;
     border-radius: 50px;
     font-size: 0.9em;
     font-weight: 600;
     color: #204b76;
-    box-shadow: 1px 1px 15px #003052ab;
+    align-self: center;
 }
 
-.submit:hover{
+.ok-btn{
+    background-color:#204b76;
+    color: #aed7ff;
+}
+
+.submit:hover, .ok-btn:hover{
     background-color: #ffa600;
     color: #204b76;
-    transition: ease-in 0.6s ;
+    transition: ease-in 0.3s ;
 }
 
 .popup{
@@ -47,7 +52,7 @@
     text-align: center;
     justify-content: center;
     justify-items: center;
-    
+    width: 350px;
 }
 
 .popup img{
