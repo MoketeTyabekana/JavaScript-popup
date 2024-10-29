@@ -29,8 +29,10 @@
 }
 
 .ok-btn{
-    background-color:#204b76;
-    color: #aed7ff;
+    background-color:#0ac500;
+    color: #ffffff;
+    width: 100%;
+    border-radius: 0;
 }
 
 .submit:hover, .ok-btn:hover{
@@ -43,7 +45,7 @@
     display: flex;
     flex-direction: column;
     padding: 0 30px 30px;
-    background-color: #cae5ff;
+    background-color: #ffffff;
     color: #204b76;
     border-radius: 10px;
     box-shadow: 1px 1px 15px #003052ab;
@@ -61,6 +63,8 @@
 
 h2{
     margin-top: 30px;
+    font-size: 38px;
+    font-weight: 600;
 }
 
 .popup img{
