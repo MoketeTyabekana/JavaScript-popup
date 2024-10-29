@@ -38,9 +38,22 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: #aed7ff;
+    background-color: #cae5ff;
     color: #204b76;
     border-radius: 10px;
     box-shadow: 1px 1px 15px #003052ab;
     margin: 10px;
+    gap: 15px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.popup img{
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    
+    
 }
