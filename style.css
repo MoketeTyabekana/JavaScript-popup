@@ -33,3 +33,14 @@
     color: #204b76;
     transition: ease-in 0.6s ;
 }
+
+.popup{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #aed7ff;
+    color: #204b76;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px #003052ab;
+    margin: 10px;
+}
